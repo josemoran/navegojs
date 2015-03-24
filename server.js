@@ -5,7 +5,7 @@ http.createServer(function(req, res) {
   res.end('Hello Azure, mi nombre es Papos\n');
 }).listen(port);
 */
-var io = require('socket.io').listen(8082);
+var io = require('socket.io').listen(80);
 //io.set('log level', 1); // reduce logging
 var pg = require ('pg');
 var pgConString = "postgres://postgres:2eh6q5xz@tmserver01.cloudapp.net/navego_pacifico"
